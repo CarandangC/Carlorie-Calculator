@@ -1,0 +1,2 @@
+Have two input boxes for the item and the serving size
+Show more than just calories (show nutrition facts for the item)

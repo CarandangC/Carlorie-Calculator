@@ -1,0 +1,27 @@
+https://developer.edamam.com/edamam-docs-nutrition-api#/
+
+https://api.edamam.com/doc/open-api/nutrition-analysis-v1.json 
+
+Status Codes:
+Response Messages
+HTTP Status Code	
+
+200	
+OK - Recipe object containing: number of servings (yield), total calories for the recipe (calories), 
+nutrient content by nutrient type (totalNutrients, totalDaily), and diet and health classifications (dietLabels, healthLabels)
+
+304	
+Not Modified
+
+404	
+Not Found - The specified URL was not found or couldn't be retrieved
+
+409	
+The provided ETag token does not match the input data
+
+422	
+Unprocessable Entity - Couldn't parse the recipe or extract the nutritional info
+
+555	
+Recipe with insufficient quality to process correctly
+
